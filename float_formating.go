@@ -24,7 +24,7 @@ func main() {
 	// default padding is done using spaces
 
 	fmt.Printf("The stirng is:%9s \n", "tim")              // %s is for string and %q is to print string along with double quotes
-	                                                          string is by default right jsutified
+	                                                       // string is by default right jsutified
 
 	fmt.Printf("The stirng is:%-9sis a tough guy\n", "tim")                 // print string using padding with left justified (- for left justification)
 	fmt.Printf("The stirng is:%09s*is*a*tough*guy \n", "tim")        // do passing with 0 rather than default space
